@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="js-login" class="login-block">
+        <input id="username" type="text">
+        <input id="password" type="text">
+        <button id="login-btn" onclick="login()"=>登录</button>
+    </div>
+    <div id="app"></div>
+    <script>
+        function login() {
+            document.getElementById('js-login').classList.add('hide')
+            document.getElementById('app').innerHTML = decodeURIComponent(window.atob('JTNDdWwlM0UlM0NsaSUzRSUzQ2ElMjBocmVmJTNEJTIyLiUyRmh0bWxTb3VyY2UuaHRtbCUyMiUzRUhUTUwlRTYlQkElOTAlRTclQTAlODElRTclODglQUMlRTglOTklQUIlM0MlMkZhJTNFJTNDJTJGbGklM0UlM0NsaSUzRSUzQ2ElMjBocmVmJTNEJTIyLiUyRnJlcXVlc3RBcGkuaHRtbCUyMiUzRSVFNiU4RSVBNSVFNSU4RiVBMyVFNyU4OCVBQyVFOCU5OSVBQiUzQyUyRmElM0UlM0MlMkZsaSUzRSUzQ2xpJTNFJTNDYSUyMGhyZWYlM0QlMjIuJTJGaGVhZGxlc3MuaHRtbCUyMiUzRSVFNiU5NyVBMCVFNSVBNCVCNCVFNiVCNSU4RiVFOCVBNyU4OCVFNSU5OSVBOCVFNyU4OCVBQyVFOCU5OSVBQiUzQyUyRmElM0UlM0MlMkZsaSUzRSUzQyUyRnVsJTNF'))
+        }
+    </script>
+</body>
+</html>
