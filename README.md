@@ -1,4 +1,5 @@
 # NodeJS爬虫模板
+[![Cloud Studio Template](https://cs-res.codehub.cn/common/assets/icon-badge.svg)](https://cloudstudio.net/templates/h3mm9OTGWuz)
 
 ## 1. HTML源码爬虫
 ### 原理
